@@ -33,7 +33,18 @@ body {
 }
 
 #points {
-  width: 500px;
   height: 500px;
+  width: 500px;
   border: 1px solid black;
 }
+
+#scores {
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  margin: .4rem;
+  height: 3rem
+}
+

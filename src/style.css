@@ -29,6 +29,7 @@ body {
 
 #container {
   display: flex;
+  justify-content: center;
   gap: 3rem;
   align-items: center;
   width: 100%;

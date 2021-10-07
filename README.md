@@ -10,7 +10,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://lordkaito.github.io/leaderboard/dist/)
+[Live Demo Link](https://dazzling-einstein-eaf318.netlify.app/)
 
 ## Getting Started
 

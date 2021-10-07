@@ -1,5 +1,5 @@
 const gameUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
-const scoresUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/DVibYioPE4je7RGowm5U/scores';
+const scoresUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/1on6iNz9vvP5j0X3s5YS/scores';
 
 const newGame = async () => {
   const newGameName = 'My new game';

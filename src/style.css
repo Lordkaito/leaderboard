@@ -8,6 +8,10 @@ body {
 
 body {
   padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .btn-container {
@@ -18,10 +22,8 @@ body {
 
 #container {
   display: flex;
-  /* flex-direction: column; */
   gap: 3rem;
   align-items: center;
-  justify-content: center;
   width: 100%;
   height: 100%;
 }
@@ -36,6 +38,7 @@ body {
   height: 500px;
   width: 500px;
   border: 1px solid black;
+  overflow: auto;
 }
 
 #scores {
@@ -44,7 +47,6 @@ body {
   align-items: center;
   justify-content: center;
   gap: 5rem;
-  margin: .4rem;
-  height: 3rem
+  margin: 0.4rem;
+  height: 3rem;
 }
-

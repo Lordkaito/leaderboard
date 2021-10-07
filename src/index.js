@@ -1,5 +1,5 @@
 import './style.css';
-import { newUser, getScores, newGame, frameCreation, gameUrl, scoresUrl } from './api.js';
+import { newUser, getScores, newGame } from './api.js';
 
 const userValue = document.querySelector('#name');
 const scoreValue = document.querySelector('#score');
@@ -7,9 +7,6 @@ const points = document.querySelector('#points');
 const refresh = document.querySelector('#refresh');
 const submit = document.querySelector('#submit');
 const title = document.querySelector('#title');
-
-newGame();
-getScores(points);
 
 submit.addEventListener('click', (e) => {
   e.preventDefault();
@@ -25,11 +22,12 @@ submit.addEventListener('click', (e) => {
     userValue.value = '';
     scoreValue.value = '';
   }
-}
-);
+});
 
 refresh.addEventListener('click', () => {
   location.reload();
-}
-);
+});
+
+newGame();
+getScores(points);
 

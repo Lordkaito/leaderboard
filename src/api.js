@@ -49,6 +49,4 @@ const getScores = async (cont) => {
   frameCreation(sortArr, cont);
 }
 
-// getScores(nameofmycontainer);
-
 export { newUser, getScores, newGame, frameCreation, gameUrl };

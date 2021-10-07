@@ -47,7 +47,6 @@ body {
   align-items: center;
   justify-content: center;
   gap: 5rem;
-  margin: .4rem;
-  height: 3rem
+  margin: 0.4rem;
+  height: 3rem;
 }
-

@@ -11,9 +11,8 @@ const newGame = async () => {
     },
   });
   const jsonData = await response.json();
-  console.log(jsonData);
   return jsonData;
-}
+};
 
 const newUser = async (userValue, scoreValue) => {
   const response = await fetch(scoresUrl, {
@@ -27,9 +26,8 @@ const newUser = async (userValue, scoreValue) => {
     },
   });
   const jsonData = await response.json();
-  console.log(jsonData);
   return jsonData;
-}
+};
 
 const frameCreation = (arr, cont) => {
   let players = '';
@@ -40,13 +38,15 @@ const frameCreation = (arr, cont) => {
     </div>`;
   });
   cont.innerHTML = players;
-}
+};
 
 const getScores = async (cont) => {
   const response = await fetch(scoresUrl);
   const jsonData = await response.json();
   const sortArr = jsonData.result.sort((a, b) => b.score - a.score);
   frameCreation(sortArr, cont);
-}
+};
 
-export { newUser, getScores, newGame, frameCreation, gameUrl };
+export {
+  newUser, getScores, newGame, frameCreation, gameUrl,
+};
